@@ -21,8 +21,8 @@ window.onload= function(){
                   "samsung/galaxyS7edge",
                   "samsung/galaxyNote5"];
     var prices = [800,850,900,720,750,700,780,600,650,540];
-    var a = {
-        a: function(){
+    var tasks = {
+        tasks1: function(){
             var samsungDisplay = document.getElementById("content");
             var tags = "";
             for (var i=0; i < samsung.length; i++){
@@ -31,7 +31,7 @@ window.onload= function(){
             
         }
         };
-    a.a();
+    tasks.tasks1();
 }
 
     
